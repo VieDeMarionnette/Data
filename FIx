@@ -1,0 +1,24 @@
+(There was an error rendering your Notebook: the 'state' key is missing from 'metadata.widgets'. Add 'state' to each, or remove 'metadata.widgets'.)
+I ran into some issues trying to upload my file from google codelab so if you have a similar issue use this code:
+
+
+
+
+import nbformat
+
+notebook_filename = "dataanalyst.ipynb"
+
+with open(notebook_filename, "r", encoding="utf-8") as f:
+    nb = nbformat.read(f, as_version=4)
+
+if "widgets" in nb.metadata:
+    del nb.metadata["widgets"]
+
+cleaned_filename = "Cleaned_dataanalyst.ipynb"
+with open(cleaned_filename, "w", encoding="utf-8") as f:
+    nbformat.write(nb, f)
+
+print("Notebook cleaned and saved as", cleaned_filename)
+
+
+(OFC CHANGE YOUR NOTEBOOK NAME) works like a charm.
