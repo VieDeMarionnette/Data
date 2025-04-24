@@ -1,0 +1,23 @@
+First of all you should definetly use Excel formulator or ChatGpt even for help with the formulas,it's quick and easy :) These are just going to be random shortcuts so try them out.
+ALT + H + O + I and ALT + H + O + A...You could also use - click sheet,view code,worksheet (cells,entire column,autofit)
+ALT= (hold shift,select and use ALT=) it's a shortcut for SUM
+CRTL E (Fills in the rest)
+ALT+O+E - To organize your data
+CTRL SHIFT + (Add column) CTRL SHIFT - (Remove the column)
+UNIQUE (Removes duplicate values)
+Filter (Filters data based on a criteria)
+SORT (Sorts data based on a indexed columns)
+XLOOKUP (Looks up a value in an array and returns a corresponding value
+Insert,PivotTable (ALT+O+P) - Easier data analysis,add ALT+F1 for a chart
+Select the data, CTRL + T (Insert slicer)
+CTRL + G,special,select blanks (removes blank rows),use CTRL + (-)
+ALT+A+S+A or ALT+A+S+D
+ALT+A+T (Filters)
+ALT+A+M (Removes duplicates)
+ALT+W+N (Two sheets,side by side)
+CTRL+A is select all
+CTRL + Z is undo
+CTRL + P to open print menu
+CTRL + D to open font menu
+Index match (=INDEX (Refrence,row_num,[colum_num],[area_num]) or (array,row_num,[column_num])
+TOCOL - To combine two or more lists into one
